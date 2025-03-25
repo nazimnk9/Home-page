@@ -128,7 +128,7 @@ export default function Service() {
         </div>
 
         {/* Navigation Arrows */}
-        <div className="flex justify-center space-x-2 mb-8">
+        <div className="flex justify-center space-x-2">
           <button className="bg-[#001c6b] p-2 rounded">
             <ChevronLeft size={20} />
           </button>
@@ -138,11 +138,15 @@ export default function Service() {
         </div>
 
         {/* Footer Text */}
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           <p className="text-sm tracking-widest pt-2 relative">
             CREATIVE SOLUTION
             <span className="absolute -right-12 top-4.5 h-px w-10 bg-[#1a2a5e]"></span>
           </p>
+        </div> */}
+        <div className="flex items-center justify-end">
+          <h2 className="text-sm tracking-widest uppercase text-gray-600 font-medium">CREATIVE SOLUTION</h2>
+          <div className="ml-4 h-px bg-[#1a2a5e] w-24"></div>
         </div>
       </div>
     </div>

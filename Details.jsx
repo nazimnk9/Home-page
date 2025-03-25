@@ -93,7 +93,7 @@ const Details = () => {
         </div>
 
         {/* Portfolio Section Header */}
-        <div className="mt-20">
+        <div className="mt-20 mb-8">
           <p className="text-blue-500 uppercase tracking-wider text-sm font-medium">UI/UX PORTFOLIO</p>
           <div className="flex justify-between items-center">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0a2472] mt-2">Check Our Previous Work</h2>
@@ -102,13 +102,34 @@ const Details = () => {
             </button>
           </div>
         </div>
+         {/* Navigation Menu */}
+         <div className="flex space-x-8 mb-10 border-b border-[#0A2C8C1A] pb-4">
+          <a href="#" className="text-[#0088FF] font-medium">
+            WEBSITE
+          </a>
+          <a href="#" className="text-[#474747] font-medium">
+            UI/UX
+          </a>
+          <a href="#" className="text-[#474747] font-medium">
+            SEO
+          </a>
+          <a href="#" className="text-[#474747] font-medium">
+            LOGO DESIGN
+          </a>
+          <a href="#" className="text-[#474747] font-medium">
+            BANNER DESIGN
+          </a>
+          <a href="#" className="text-[#474747] font-medium">
+            GOOGLE ADS
+          </a>
+        </div>
       </div>
 
       {/* Background Wave Images */}
-      <div className="absolute bottom-0 left-0 w-full z-[-1]">
+      <div className="absolute -bottom-25 left-0 w-full z-[-1]">
         <Image src="/group.png" alt="Wave background" width={1920} height={300} className="w-full" />
       </div>
-      <div className="absolute bottom-0 left-0 w-full z-[-2]">
+      <div className="absolute -bottom-25 left-0 w-full z-[-2]">
         <Image src="/group-1.png" alt="Wave background" width={1920} height={300} className="w-full" />
       </div>
     </div>
