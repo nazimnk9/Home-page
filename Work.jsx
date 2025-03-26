@@ -22,7 +22,7 @@ export default function Work() {
   const currentPage = 0
 
   return (
-    <section className="w-full py-12 md:py-16 lg:py-20 overflow-hidden">
+    <section className="w-full pb-12 md:pb-12 lg:pb-12 overflow-hidden m-0">
       <div className="container mx-auto px-4">
         {/* Portfolio Grid */}
         <div className="relative">
