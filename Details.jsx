@@ -129,10 +129,10 @@ const Details = () => {
       </div>
 
       {/* Background Wave Images */}
-      <div className="absolute -bottom-25 left-0 w-full z-0">
+      <div className="absolute bottom-5 left-0 w-full z-0">
         <Image src="/Group.png" alt="Wave background" width={1920} height={300} className="w-full" />
       </div>
-      <div className="absolute -bottom-5 left-0 w-full z-[-1]">
+      <div className="absolute bottom-25 left-0 w-full z-[-1]">
         <Image src="/Group_1.png" alt="Wave background" width={1920} height={300} className="w-full" />
       </div>
     </div>
